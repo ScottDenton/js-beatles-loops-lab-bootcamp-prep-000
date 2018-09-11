@@ -21,18 +21,17 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles (n){
   
   var newArray = [];
-  var i = 0;
-  
   do { 
-    newArray.push = `I love the Beatles!`;
-  } while ( newArray.length < 15 );
+    newArray.push ("I love the Beatles!");
+    n++;
+  } while ( n < 15 );
     
     return newArray;
   }
   
   
   
-}
+
 
 
 
