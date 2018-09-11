@@ -22,10 +22,15 @@ function iLoveTheBeatles (n){
   var newArray = [];
   var i = 0
   
+  function incrementN (n){
+    n +=1;
+  }
+  
+  
   do {
   newArray[i] = `I love the Beatles!`;
-  n += 1;
-  i+= 1;
+  incrementN():
+  
   } 
   
   while ( n < 15
