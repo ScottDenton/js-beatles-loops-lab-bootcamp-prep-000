@@ -1,7 +1,7 @@
 // add solution here
 
-function theBeatlesPlay(musician, instrument){
-  var newArray = new Array();
+function theBeatlesPlay(musicians, instruments){
+  var newArray = [];
   
   
   
