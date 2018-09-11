@@ -24,7 +24,7 @@ function iLoveTheBeatles (n){
   var i = 0;
   
   do { 
-    newArray[i] = `I love the Beatles!`;
+    newArray.push = `I love the Beatles!`;
   } while ( newArray.length < 15 );
     
     return newArray;
